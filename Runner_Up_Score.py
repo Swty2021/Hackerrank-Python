@@ -6,6 +6,5 @@ for i in range(1,run+1):
     Li1.append(score)
 S1 = set(Li1)
 S1.remove(max(S1))
-#S1.max(S1)
 print(max(S1))
 
